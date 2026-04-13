@@ -1,3 +1,10 @@
-FROM nginx:latest
+FROM nginx:alpine
 
-COPY . /usr/share/nginx/html/
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY site/ /usr/share/nginx/html/
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
