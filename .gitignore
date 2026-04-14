@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Docker
+*.tar
+
+# Node (for future expansion)
+node_modules/
+
