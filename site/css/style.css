@@ -94,7 +94,7 @@ section {
 /* ABOUT */
 .about-preview {
     max-width: 650px;
-    margin: 0 auto;
+    margin: 40px auto 0;
     text-align: center;
     border-top: 1px solid rgba(255,255,255,0.08);
     padding-top: 50px;
@@ -114,7 +114,7 @@ section {
 /* FEATURED */
 .featured {
     text-align: center;
-    padding: 50px 20px 70px;
+    padding: 40px 20px 60px;
 }
 
 .featured h2 {
