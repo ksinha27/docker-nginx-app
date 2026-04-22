@@ -173,5 +173,22 @@ footer {
     color: #aaa;
 }
 
+.card {
+    text-align: center;
+}
 
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.card img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
 
