@@ -178,9 +178,10 @@ footer {
 }
 
 .card p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #aaa;
+    margin-top: 12px;
+    font-size: 15px;
+    color: #ccc;
+    letter-spacing: 0.5px;	
 }
 
 .card img {
