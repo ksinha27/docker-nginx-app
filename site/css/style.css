@@ -47,7 +47,9 @@ nav {
 
 /* GLOBAL SECTION SPACING */
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
+    margin: 100px auto;
+    max-width: 1000px;
 }
 
 /* HERO */
@@ -55,7 +57,7 @@ section {
     text-align: center;
     padding: 90px 20px 60px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 120px auto 80px;
 }
 
 .hero h2 {
