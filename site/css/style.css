@@ -128,3 +128,20 @@ footer {
     background: #111;
 }
 
+/* ABOUT PREVIEW (Homepage) */
+.about-preview {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-preview h2 {
+    margin-bottom: 15px;
+}
+
+.about-preview p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #d0d0d0;
+}
+
