@@ -1,10 +1,11 @@
-/* RESET / BASE */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BASE */
 body {
     font-family: Arial, sans-serif;
     background-color: #0d1117;
@@ -46,29 +47,32 @@ nav {
 
 /* GLOBAL SECTION SPACING */
 section {
-    padding: 70px 20px;
+    padding: 60px 20px;
 }
 
 /* HERO */
 .hero {
     text-align: center;
-    padding: 110px 20px 80px;
+    padding: 90px 20px 60px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .hero h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    line-height: 1.25;
     margin-bottom: 15px;
 }
 
 .hero p {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto 20px;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     color: #d0d0d0;
 }
 
-/* BUTTON / LINK BUTTON */
+/* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -85,48 +89,48 @@ section {
     transform: translateY(-2px);
 }
 
-/* ABOUT PREVIEW (Homepage) */
+/* ABOUT */
 .about-preview {
-    max-width: 700px;
+    max-width: 650px;
     margin: 0 auto;
     text-align: center;
     border-top: 1px solid rgba(255,255,255,0.08);
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .about-preview h2 {
-    font-size: 28px;
-    margin-bottom: 16px;
+    font-size: 26px;
+    margin-bottom: 14px;
 }
 
 .about-preview p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
     color: #ccc;
 }
 
-/* FEATURED (Homepage) */
+/* FEATURED */
 .featured {
-    padding: 50px 20px 70px;
     text-align: center;
+    padding: 50px 20px 70px;
 }
 
 .featured h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    margin-bottom: 25px;
 }
 
+/* FEATURED GRID */
 .featured-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 
 .featured-grid img {
-    width: 250px;
-    height: 180px;
+    width: 240px;
+    height: 170px;
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.2s ease, opacity 0.2s ease;
@@ -137,13 +141,13 @@ section {
     opacity: 0.9;
 }
 
-/* GALLERY PAGE */
+/* GALLERY */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 18px;
     padding: 20px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -163,10 +167,11 @@ section {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 25px 20px;
     background: #111;
-    font-size: 14px;
+    font-size: 13px;
     color: #aaa;
 }
+
 
 
